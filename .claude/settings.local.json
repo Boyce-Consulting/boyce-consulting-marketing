@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:clearimpactstrategy.com)",
+      "WebFetch(domain:www.justcanvass.ca)",
+      "Bash(npx create-next-app:*)",
+      "Bash(npx tailwindcss:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_wait_for",
+      "Bash(npm uninstall:*)",
+      "Bash(npm install:*)",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_close",
+      "mcp__playwright__browser_tabs",
+      "Bash(README.md)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
