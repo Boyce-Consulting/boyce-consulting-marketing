@@ -4,8 +4,6 @@ export default function Services() {
     'Social Media Campaigns & Advertising',
     'Email Marketing & Automation',
     'Digital Analytics & Optimization',
-    'Online Fundraising Support',
-    'Website Development & Design',
   ];
 
   const voterContactServices = [
@@ -23,7 +21,6 @@ export default function Services() {
     'Local Campaign Management',
     'Volunteer Coordination',
     'Door Knocking & Canvassing Training',
-    'Fundraising Best Practices',
   ];
 
   return (

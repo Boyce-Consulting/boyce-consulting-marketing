@@ -15,7 +15,10 @@
       "mcp__playwright__browser_close",
       "mcp__playwright__browser_tabs",
       "Bash(README.md)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git checkout:*)",
+      "Bash(curl:*)",
+      "mcp__playwright__browser_snapshot"
     ],
     "deny": [],
     "ask": []

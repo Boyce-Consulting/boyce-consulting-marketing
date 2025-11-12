@@ -76,18 +76,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-8 text-center">
           <p className="text-white/60 text-sm">
-            &copy; {new Date().getFullYear()} Boyce Consulting. All rights reserved.
-          </p>
-          <p className="text-white/60 text-sm mt-2">
-            Authorized partner of{' '}
-            <a
-              href="https://www.justcanvass.ca/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-white/80 transition-colors"
-            >
-              JustCanvass
-            </a>
+            &copy; {new Date().getFullYear()} Boyce Consulting Incorporated. All rights reserved.
           </p>
         </div>
       </div>

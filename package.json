@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && npx gh-pages -d out"
+    "export": "next build",
+    "predeploy": "npm run export && echo www.boyce-consulting.ca > out/CNAME",
+    "deploy": "npx gh-pages -d out --dotfiles"
   },
   "keywords": [],
   "author": "",
